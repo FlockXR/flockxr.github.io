@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Twin Seas</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: "Lato", sans-serif
+        }
+
+        .mySlides {
+            display: none
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <div class="w3-top">
+        <div class="w3-bar w3-black w3-card">
+            <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right"
+                href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i
+                    class="fa fa-bars"></i></a>
+            <a href="#" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+            <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hide-small">ABOUT</a>
+            <div class="w3-dropdown-hover w3-hide-small">
+                <button class="w3-padding-large w3-button" title="More">GALLERY<i class="fa fa-caret-down"></i></button>
+                <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                    <a href="#alice" class="w3-bar-item w3-button">Photos</a>
+                    <a href="#celina" class="w3-bar-item w3-button">Documentary</a>
+                    <a href="#emilie" class="w3-bar-item w3-button">Demo video</a>
+                </div>
+            </div>
+            <div class="w3-dropdown-hover w3-hide-small">
+                <button class="w3-padding-large w3-button" title="More">TEAM <i class="fa fa-caret-down"></i></button>
+                <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                    <a href="#alice" class="w3-bar-item w3-button">Alice</a>
+                    <a href="#celina" class="w3-bar-item w3-button">Celina</a>
+                    <a href="#emilie" class="w3-bar-item w3-button">Emile</a>
+                    <a href="#gustav" class="w3-bar-item w3-button">Gustav</a>
+                    <a href="#jesper" class="w3-bar-item w3-button">Jesper</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Page content -->
+    <div class="w3-content" style="max-width:2000px;margin-top:46px">
+        <div class="w3-display-container w3-center">
+            <img src="images\TwinSeasLogo3.png" style="height:100%">
+            <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+            </div>
+        </div>
+    </div>
+
+    <!-- About -->
+    <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="about">
+        <h2 class="w3-wide">Twin Seas</h2>
+        <p class="w3-opacity"><i>Walk the plank!</i></p>
+        <p class="w3-justify">
+            Twin Seas is a augmented reality experience where you command a pirate ship and battle monsters on the high
+            seas.
+            Try and survive for as long as you can and get the highest score. To help you you can collect powerups that
+            will
+            give you an edge in the fight. But beware of both monsters and of the sea itself, for it is cruel.
+        </p>
+        <p class="w3-justify">
+            The game is achived on the Microsoft Hololens and combines physical interaction with the virtual world.
+            The player controls the ship by using a physical stick that moves a QR code in the real world, the Hololens
+            then
+            tracks the QR code and moves your ship in the virtual world. The game is dynamic in the way that you can set
+            it up and play on any table
+            as long as you have the Hololens, the stick and the QR code.
+        </p>
+        <h2 class="w3-wide">Challenges and Goals</h2>
+        <p class="w3-justify">
+            
+        </p>
+        <h2 class="w3-wide">Related work</h2>
+        <ul class="w3-ul">
+            <li><a href="https://www.youtube.com/watch?v=nGfVBdqw2VE">The Ancients AR</a></li>
+            <li><a href="https://vimeo.com/162064613">Brarwl</a></li>
+            <li><a href="https://dl.acm.org/doi/10.1145/3214745.3214820">The technical art of sea of thieves</a></li>
+        </ul>
+        
+    </div>
+
+    <!-- Gallery -->
+    <div class="w3-black" id="gallery">
+        <h2 class="w3-wide w3-center">GALLERY</h2>
+    </div>
+
+    <!-- The Contact Section -->
+    <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="team">
+        <h2 class="w3-wide w3-center w3-padding-24">TEAM</h2>
+        <!--Team Member-->
+        <div class="w3-row" id="alice">
+            <div class="w3-col s5" style="padding: 70px 0px">
+                <div class="avatar"> <img src="images/Alice.jpg" /> </div>
+                <a href="https://github.com/AliceAnselmi"><i class="fa fa-github"
+                        style="font-size:36px; padding-left: 20%; padding-top: 10px"></i></a>
+                <a href="mailto:aanselmi@kth.se"><i class="fa fa-envelope" style="font-size:36px"
+                        aria-hidden="true"></i></a>
+            </div>
+            <div class="w3-col s5">
+                <h3 class="w3-center">Alice</h3>
+                <p>
+                    I'm very passionate about 3D Art but I lent my skills to diverse aspects of our game. Using Blender,
+                    I modelled, textured, and animated the game's ship, along with crafting in-game elements l ike
+                    power-ups and particle effects. I also contributed to UI and menu design, including a tutorial
+                    and 2D assets. On the audio front, I handled SFX and music, and incorporated spatialized sounds
+                    into Unity. In a more hands-on role, I tinkered with a lofi physical controller prototype,
+                    designing the 3D printed components for the final version.
+                </p>
+            </div>
+        </div>
+        <!--Team Member end-->
+        <!--Team Member-->
+        <div class="w3-row" id="celina">
+            <div class="w3-col s5" style="padding: 70px 0px">
+                <div class="avatar"> <img src="images/Celina.jpg" /> </div>
+                <a href="https://github.com/Rufstufsan"><i class="fa fa-github"
+                        style="font-size:36px; padding-left: 20%; padding-top: 10px"></i></a>
+                <a href="mailto:celinas@kth.se"><i class="fa fa-envelope" style="font-size:36px"
+                        aria-hidden="true"></i></a>
+            </div>
+            <div class="w3-col s5">
+                <h3 class="w3-center">Celina</h3>
+                <p>
+                    I’m an enthusiastic game developer with substantial experience in the Unity game engine 
+                    and Autodesk Maya 3D modeling and animation software. My primary skills would be 
+                    3D modeling, rigging, animations, and game programming. My leading responsibilities 
+                    for this project have been modeling, animating, and developing the mechanics for the 
+                    Kraken enemy. I’m a collaborative team member ready to address any workload that 
+                    requires attention such as debugging, writing code, or asset creation for the game. 
+                    Furthermore, I’m always prepared to offer guidance to my team members in both technical 
+                    and artistic realms.
+                    
+                </p>
+            </div>
+        </div>
+        <!--Team Member end-->
+        <!--Team Member-->
+        <div class="w3-row" id="emile">
+            <div class="w3-col s5" style="padding: 70px 0px">
+                <div class="avatar"> <img src="images/Emile_potrait.png" /> </div>
+                <a href="https://github.com/EmileEmile"><i class="fa fa-github"
+                        style="font-size:36px; padding-left: 20%; padding-top: 10px"></i></a>
+                <a href="mailto:ejdpa@kth.se"><i class="fa fa-envelope" style="font-size:36px"
+                        aria-hidden="true"></i></a>
+            </div>
+            <div class="w3-col s5">
+                <h3 class="w3-center">Emile</h3>
+                <p>
+                    I’ll take whatever task is given to me, whether that is getting the compiler to work or sawing
+                    wood in the workshop. I worked on the AR tracking behaviour for the game, programmed the enemies
+                    but I was just as happy 3D modelling, rigging, and animating a whale. I believe making a game feel
+                    right means taking time with small adjustments, so I also spent time balancing the game to improve
+                    the player experience. Everyone likes powerups so I added the behaviour of them to Twinseas to
+                    give it a bit more spice.
+                </p>
+            </div>
+        </div>
+        <!--Team Member end-->
+        <!--Team Member-->
+        <div class="w3-row" id="gustav">
+            <div class="w3-col s5" style="padding: 70px 0px">
+                <div class="avatar"> <img src="images/Gustav.jpg" /> </div>
+                <a href="https://github.com/GusAxelsson"><i class="fa fa-github"
+                        style="font-size:36px; padding-left: 20%; padding-top: 10px"></i></a>
+                <a href="mailto:gustavax@kth.se"><i class="fa fa-envelope" style="font-size:36px"
+                        aria-hidden="true"></i></a>
+            </div>
+            <div class="w3-col s5">
+                <h3 class="w3-center">Gustav</h3>
+                <p>
+			I'm a versatile team player, willing to take on any task to make our project as good as it can be. My primary responsibilities revolved around AR tracking, ensuring that our virtual world seamlessly blended with the real one. I also took charge of refining the shooting mechanics and working on the UI of the game. I set up the play area, enabling smooth restarts for uninterrupted play. and created a system to display enemy indicators when they venture off-screen, keeping players engaged and informed. In game development, small adjustments can make a world of difference, so I and the team have dedicated time to fine-tuning and balancing our game together. This project has had me wearing multiple hats, much like a captain steering a ship through treacherous waves.
+                </p>
+            </div>
+        </div>
+        <!--Team Member end-->
+        <!--Team Member-->
+        <div class="w3-row" id="jesper">
+            <div class="w3-col s5" style="padding: 70px 0px">
+                <div class="avatar"> <img src="images/Jesper.png" /> </div>
+                <a href="https://github.com/SolidTiger"><i class="fa fa-github"
+                        style="font-size:36px; padding-left: 20%; padding-top: 10px"></i></a>
+                <a href="mailto:jlidbaum@kth.se"><i class="fa fa-envelope" style="font-size:36px"
+                        aria-hidden="true"></i></a>
+            </div>
+            <div class="w3-col s5">
+                <h3 class="w3-center">Jesper</h3>
+                <p>
+                    I am passionate about computer graphics and simulation and I seek
+                    to create breathtaking visual experiences. My proficiency in low-level coding and graphics
+                    programming has benefitted the project. I've have developed shaders
+                    that not only generate captivating visual effects but also
+                    seamlessly integrate with gameplay, providing players with cues about the game's current
+                    state. I have also programmed mechanics for the game that force the player use
+                    the physical interaction of the game.
+                </p>
+            </div>
+        </div>
+        <!--Team Member end-->
+    </div>
+
+    <!-- End Page Content -->
+    </div>
+
+    <!-- Footer -->
+    <footer class="w3-container w3-padding-64 w3-center w3-opacity  w3-light-grey w3-xlarge">
+        <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a>
+        </p>
+    </footer>
+
+    <script>
+    </script>
+
+</body>
+
+</html>
