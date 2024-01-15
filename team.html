@@ -10,6 +10,8 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet_custom" href="style.css" />
+		<script src="script.js"></script>
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="no-sidebar is-preload">
@@ -47,58 +49,48 @@
 						</article>
 						<hr />
 						<div class="row">
-							<article class="col-4 col-12-mobile special">
-								<a href="#" class="image featured"><img src="images/Gustav.jpg" alt="" /></a>
-								<header>
-									<h3><a href="#">Gustav Axelsson</a></h3>
-								</header>
-								<p>
-									I'm a versatile team player, willing to take on any task to make our project as good as it can be. My primary responsibilities revolved around AR tracking, ensuring that our virtual world seamlessly blended with the real one. I also took charge of refining the shooting mechanics and working on the UI of the game. I set up the play area, enabling smooth restarts for uninterrupted play. and created a system to display enemy indicators when they venture off-screen, keeping players engaged and informed. In game development, small adjustments can make a world of difference, so I and the team have dedicated time to fine-tuning and balancing our game together. This project has had me wearing multiple hats, much like a captain steering a ship through treacherous waves.
-								</p>
-							</article>
-							<article class="col-4 col-12-mobile special">
-								<a href="#" class="image featured"><img src="images/Emile_potrait.png" alt="" /></a>
-								<header>
-									<h3><a href="#">Emile Pascoe</a></h3>
-								</header>
-								<p>
-									I’ll take whatever task is given to me, whether that is getting the compiler to work or sawing
-									wood in the workshop. I worked on the AR tracking behaviour for the game, programmed the enemies
-									but I was just as happy 3D modelling, rigging, and animating a whale. I believe making a game feel
-									right means taking time with small adjustments, so I also spent time balancing the game to improve
-									the player experience. 
-								</p>
-							</article>
-							<article class="col-4 col-12-mobile special">
-								<a href="#" class="image featured"><img src="images/Celina.jpg" alt="" /></a>
-								<header>
-									<h3><a href="#">Celina Söderman</a></h3>
-								</header>
-								<p>
-									I’m an enthusiastic game developer with substantial experience in the Unity game engine and Autodesk Maya 3D modeling and animation software. My primary skills would be 3D modeling, rigging, animations, and game programming. My leading responsibilities for this project have been modeling, animating, and developing the mechanics for the Kraken enemy. I’m a collaborative team member ready to address any workload that requires attention such as debugging, writing code, or asset creation for the game. Furthermore, I’m always prepared to offer guidance to my team members in both technical and artistic realms.
-								</p>
-							</article>
+							<div class="test">
+								<table class="main_table" >
+									<tr >
+										<td>	
+											<img src="\images\Celina.jpg" class="profile img">
+											<h1 style="margin: auto; display: flex; justify-content: center;">Celina Söderman</h1>
+											<p>Level Developer </p>
+											<button onclick="buttonFunc(1)" style="width : 95%" >Read more</button>
+										</td>
+										<td>
+											<img src="\images\Emile_potrait.png" class="profile img">
+											<h1 style="margin: auto; display: flex; justify-content: center;">Emile Pascoe</h1>
+											<p>	XR Developer</p>
+											<button onclick="buttonFunc(4)" style="width : 95%" >Read more</button>
+										</td>
+										<td>
+											<img src="\images\Alice.jpg" class="profile img">
+											<h1 style="margin: auto; display: flex; justify-content: center;">Alice Anselmi</h1>
+											<p>	3D Artist</p>
+											<button onclick="buttonFunc(0)" style="width : 95%">Read more</button>
+										</td>
+										<td>
+											<img src="\images\Gustav.jpg" class="profile img">
+											<h1 style="margin: auto; display: flex; justify-content: center;">Gustav Axelsson</h1>
+											<p>	Individual Contribution</p>
+											<button onclick="buttonFunc(2)" style="width : 95%">Read more</button>
+										</td>
+										<td>
+											<img src="\images\Jesper.png" class="profile img">
+											<h1 style="margin: auto; display: flex; justify-content: center;">Jesper Lidbaum</h1>
+											<p>	Individual Contribution</p>
+											<button onclick="buttonFunc(3)" style="width : 95%">Read more</button>
+										</td>
+									</tr>
+								</table>
 
-	
-							<article class="col-4 col-12-mobile special">
-								<a href="#" class="image featured"><img src="images/Jesper.png" alt="" /></a>
-								<header>
-									<h3><a href="#">Jesper Lidbaum</a></h3>
-								</header>
-								<p>
-									I am passionate about computer graphics and simulation and I seek to create breathtaking visual experiences. My proficiency in low-level coding and graphics programming has benefitted the project. I've have developed shaders that not only generate captivating visual effects but also seamlessly integrate with gameplay, providing players with cues about the game's current state. I have also programmed mechanics for the game that force the player use the physical interaction of the game.
-								</p>
-							</article>
+								<div class ="text">
+									
 
-							<article class="col-4 col-12-mobile special">
-								<a href="#" class="image featured"><img src="images/Alice.jpg" alt="" /></a>
-								<header>
-									<h3><a href="#">Alice Anselmi</a></h3>
-								</header>
-								<p>
-									I'm very passionate about 3D Art but I lent my skills to diverse aspects of our game. Using Blender, I modelled, textured, and animated the game's ship, along with crafting in-game elements l ike power-ups and particle effects. I also contributed to UI and menu design, including a tutorial and 2D assets. On the audio front, I handled SFX and music, and incorporated spatialized sounds into Unity. In a more hands-on role, I tinkered with a lofi physical controller prototype, designing the 3D printed components for the final version.
-								</p>
-							</article>
+								</div>
+								
+							</div>
 						</div>
 					</div>
 

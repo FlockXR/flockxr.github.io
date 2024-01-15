@@ -15,9 +15,9 @@
     height: auto;
 }
 
-.profile img {
-    height: 100px;
-    width: auto;
+.profile.img {
+    height: auto;
+    width: 95%;
 }
 
 .center {
