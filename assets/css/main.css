@@ -33,6 +33,11 @@ body {
 	line-height: 1;
 }
 
+img.profile.img {
+    height: square;
+    width: 95%;
+}
+
 ol, ul {
 	list-style: none;
 }
@@ -185,7 +190,7 @@ input, select, textarea {
 	}
 
 	p {
-		text-align: justify;
+		text-align: center;
 	}
 
 	br.clear {

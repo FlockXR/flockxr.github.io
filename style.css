@@ -15,6 +15,11 @@
     height: auto;
 }
 
+.profile img {
+    height: 100px;
+    width: auto;
+}
+
 .center {
     display: block;
     margin-left: auto;
